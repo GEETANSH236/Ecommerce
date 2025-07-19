@@ -1,0 +1,78 @@
+#prodetails .proimg{
+    width: 35%;
+    margin-top: 70px;
+}
+.SmallImgGroup{
+    display: flex;
+    justify-content: space-between;
+}
+.smallImgCol{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.m1{
+    margin: 50px;
+}
+#prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+.singleProDetails{
+   width: 50%;
+   margin: 30px;
+   padding-top: 150px; 
+}
+.singleProDetails h3{
+    padding:40px 0 10px 0;
+}
+.singleProDetails h1{
+    padding:20px 0 10px 0;
+    font-size: 30px;
+}
+.singleProDetails select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.singleProDetails input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10p;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.singleProDetails button{
+    padding: 13px;
+    background-color: #088178;
+    color: white;
+}
+.singleProDetails input:focus{
+    outline: none;
+}
+.singleProDetails span{
+    margin-top: 10px;
+}
+@media (max-width:600px){
+    #prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    #prodetails > div.proimg{
+        width:100% ;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+       #prodetails > div.singleProDetails{
+        width:100%;
+        padding: 0px;
+    }
+    
+    #prodetails > div.singleProDetails > h3{
+        font-size: 15px;
+        margin-top: -00px;
+    }
+    #prodetails > div.singleProDetails > h2,#prodetails > div.singleProDetails > span{
+        display: none;
+    }
+}

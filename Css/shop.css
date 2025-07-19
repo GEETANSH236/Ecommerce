@@ -1,0 +1,40 @@
+.shop-header{
+    background-image: url("/projectLearning/Ecommerce/asset/banner/b1.jpg");
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+.shop-header p,.shop-header h1{
+    color: white;
+}
+.shop-header h1{
+    font-size: 10vh;
+}
+.shop-header p{
+    font-size: 5vh;
+}
+#page{
+    text-align: center;
+}
+#page a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+#page a i{
+    font-size: 20px;
+    font-weight: 600;
+}
+@media (max-width:600px){
+    body > section.shop-header > h1{
+        font-size: 30px;
+    }
+}

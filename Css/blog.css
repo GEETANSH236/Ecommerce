@@ -1,0 +1,114 @@
+.blog-header{
+    background-image: url("/projectLearning/Ecommerce/asset/banner/b19.jpg");
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+.blog-header p,.blog-header h1{
+    color: white;
+}
+.blog-header h1{
+    font-size: 10vh;
+}
+.blog-header p{
+    font-size: 5vh;
+}  
+#blog {
+  padding: 19.5vh 9.75vw 0 9.75vw;  
+}
+
+.blog-box {
+  display: flex;
+  align-items: center;
+  width: 100%; 
+  position: relative; 
+  padding-bottom: 26vh;
+}
+
+.blog-img {
+  width: 50%;
+  margin-right: 2.6vw;
+}
+
+#blog img {
+  width: 100%;
+  height: 39vh;
+  object-fit: cover;
+}
+
+.blog-details {
+  width: 50%;
+}
+
+.blog-details a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 0.975vw;
+  position: relative;
+  transition: 0.3s ease;
+}
+
+.blog-details a::after {
+  content: "";
+  width: 3.25vw;
+  height: 0.13vh;
+  background-color: black;
+  position: absolute;
+  top: 1.7vh;
+  right: -4.55vw;
+}
+
+.blog-details a:hover {
+  color: #088178;
+}
+
+.blog-details a:hover::after {
+  color: #088178;
+}
+
+.blog-box h1 {
+  position: absolute;
+  top: -16.9vh;
+  left: 0;
+  font-size: 8.45vw;
+  font-weight: 700;
+  z-index: -1;
+  color: #c9cbce;
+}
+
+.blog-details h2 {
+  font-size: 2.6vw;
+  margin-bottom: 2.6vh;
+}
+
+.blog-details p {
+  font-size: 2.275vw;
+  margin-bottom: 2.6vh;
+}
+
+#page{
+    text-align: center;
+}
+#page a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+#page a i{
+    font-size: 20px;
+    font-weight: 600;
+}
+@media (max-width:600px){
+    body > section.blog-header > h1{
+        font-size: 30px;
+    }
+}
